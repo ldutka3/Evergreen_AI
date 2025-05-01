@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Evergreen Technologies</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Evergreen Technologies</h1>
+      <p class="tagline">Automated outreach, tailored for your business — powered by Evergreen AI.</p>
+      <p class="subtext">We build intelligent sales agents that connect, follow up, and close — so you don’t have to.</p>
+      <div class="cta-buttons">
+        <a href="https://calendly.com/liam-dutka/llc" class="btn primary">Book a Call</a>
+        <a href="mailto:liam.dutka.work@gmail.com" class="btn secondary">Send an Email</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="how-it-works">
+    <div class="container">
+      <h2>How Evergreen Works</h2>
+      <div class="steps">
+        <div class="step">
+          <h3>1. Capture Leads</h3>
+          <p>Connect your ad campaigns or website forms to Evergreen's AI-powered engine.</p>
+        </div>
+        <div class="step">
+          <h3>2. Instant Outreach</h3>
+          <p>Evergreen texts new leads instantly with professional, personalized follow-up messages.</p>
+        </div>
+        <div class="step">
+          <h3>3. Book More Jobs</h3>
+          <p>Convert more leads while you sleep. Evergreen works 24/7 so you don’t have to.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-evergreen">
+    <div class="container">
+      <h2>Why Businesses Choose Evergreen</h2>
+      <ul>
+        <li>✔️ AI-generated messaging that sounds like you</li>
+        <li>✔️ Hands-off follow-up — no manual texting ever again</li>
+        <li>✔️ Fully customizable, branded to your business</li>
+        <li>✔️ Fast setup, zero tech skills required</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Ready to automate your sales outreach?</p>
+      <a href="https://calendly.com/liam-dutka/llc" class="btn primary">Schedule a Demo</a>
+    </div>
+  </footer>
+</body>
+</html>
+/* Base */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0e1117;
+  color: #f3f4f6;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1f2937, #111827);
+  padding: 5rem 2rem 3rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #60f6b5;
+}
+
+.subtext {
+  font-size: 1rem;
+  color: #cbd5e1;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons .btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.primary {
+  background-color: #10b981;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #059669;
+}
+
+.secondary {
+  border: 2px solid #10b981;
+  color: #10b981;
+}
+
+.secondary:hover {
+  background-color: #10b981;
+  color: #fff;
+}
+
+/* How It Works */
+.how-it-works {
+  background-color: #111827;
+  padding: 3rem 2rem;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.step h3 {
+  margin-bottom: 0.5rem;
+  color: #60f6b5;
+}
+
+.step p {
+  color: #d1d5db;
+}
+
+/* Why Evergreen */
+.why-evergreen {
+  background-color: #0e1117;
+  padding: 3rem 2rem;
+}
+
+.why-evergreen ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.why-evergreen li {
+  margin: 0.75rem 0;
+  color: #d1d5db;
+}
+
+/* Footer */
+footer {
+  background: #1f2937;
+  padding: 2rem 1rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+footer .btn {
+  padding: 0.75rem 1.25rem;
+  font-weight: bold;
+}
